@@ -8,6 +8,8 @@ Everything is generated in the project: typography is set from bundled local fon
 
 [![MOTION. end card](out/motion-reel-poster.jpg)](out/motion-reel-1080p.mp4)
 
+> **中文说明：** 15 秒 / 1080p / 60fps，全片由代码绘制，配乐为程序合成。中文项目说明、技术笔记与发布备注见 **[README.zh-CN.md](README.zh-CN.md)**。
+
 ## Specs
 
 | | |
