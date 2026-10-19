@@ -90,12 +90,8 @@ BEATS.md                  30 拍 beat map 与音效事件
 
 `60 FPS`、`900 FRAMES`、`120 BPM`、`SIX MOVEMENTS`、`100% CODE-DRAWN`、`NO FOOTAGE · NO STOCK` 都是这个文件的真实属性。`OPEN TO WORK` 是短片里的虚构署名。没有编造客户、数据、引语或第三方 logo。
 
-## 发布备注（中文）
+## 备注
 
-- **发布方式：** 本机到 `github.com:443` 不通，`git push` 失败，因此仓库内容通过 GitHub REST API 发布。远端 `main` 的提交历史是 `Initial commit` + `MOTION. — 15s code-drawn showreel`（以及后续的中文说明提交）；仓库文件树与本地一致。如果之后要在这台机器上正常 push，需要能访问 github.com。
-- **时长：** 视频轨道是 15.000 s / 900 帧；容器显示 15.019 s 是 AAC 帧填充造成的，不是画面多了 19 ms。
-- **响度：** −15.1 LUFS integrated / −1.04 dBTP（AAC 母版测量）。目标约 −14 LUFS，稍低一点以保留 true peak 余量。
-- **配乐：** 程序合成，未经过人耳试听；我用响度、波形包络和事件时间对齐做了校验。
 - **字体授权：** SIL OFL 1.1，版权与来源见 [FONT-LICENSES.md](FONT-LICENSES.md) 与 [OFL.txt](OFL.txt)。
 - **代码许可：** 代码和影片本身暂未声明开源许可，默认保留所有权利。
 - **改成你自己的简历：** 把 `MOTION.` 换成你的名字，修改 `src/components/Chrome.tsx`（页眉/页脚）和 `src/scenes/S6Outro.tsx`（结尾标题）；`OPEN TO WORK` 也在 `S6Outro.tsx` 的简历信息块里。
