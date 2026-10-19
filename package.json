@@ -1,0 +1,23 @@
+{
+  "name": "motion-reel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MOTION. — 15s code-drawn motion design showreel",
+  "scripts": {
+    "dev": "remotion studio",
+    "still": "remotion still MotionReel",
+    "render": "remotion render MotionReel out/motion-reel-1080p.mp4 --codec=h264 --crf=18 --pixel-format=yuv420p --audio-codec=aac --audio-bitrate=256k --concurrency=6",
+    "check": "tsc"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.536",
+    "@remotion/media": "4.0.536",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.536"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  }
+}
