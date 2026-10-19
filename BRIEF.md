@@ -56,7 +56,7 @@ Most expensive beat: **10.00s / beat 21 / frame 600 — the drop**, landing on a
 
 ## <build>
 
-Remotion 4 + React 19 + TypeScript. All styles are pure functions of the frame. `spring()` for physical moves; `interpolate()` + cubic beziers for camera and masks. No CSS animation, no timers, no `Math.random`, seeded hash only. Fonts loaded through `FontFace` + `delayRender`. Grain is a generated PNG tile with a frame-hashed offset, frozen for the last 8 frames so the loop is pixel-exact in composition; the final dot state is pinned to the frame-0 state. Audio: a single 48kHz stereo WAV, synthesized with numpy (kick, clap, hats, sub bass, pad, arp, risers, impacts, UI ticks), mastered to −15.1 LUFS integrated / −1.04 dBTP (true peak), measured on the AAC master, muxed at 256k.
+Remotion 4 + React 19 + TypeScript. All styles are pure functions of the frame. `spring()` for physical moves; `interpolate()` + cubic beziers for camera and masks. No CSS animation, no timers, no `Math.random`, seeded hash only. Fonts loaded through `FontFace` + `delayRender`. Grain is a generated PNG tile with a frame-hashed offset, frozen for the last 8 frames so the loop is pixel-exact in composition; the final dot state is pinned to the frame-0 state. Audio: a single 48kHz stereo WAV, synthesized with numpy (kick, clap, hats, sub bass, pad, arp, risers, impacts, UI ticks), mastered with true-peak headroom, muxed at 256k.
 
 Render: H.264, CRF 18, yuv420p, 60fps, 900 frames. Verify with ffprobe and a first/last-frame diff.
 
